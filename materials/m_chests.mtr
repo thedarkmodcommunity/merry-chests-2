@@ -1,0 +1,68 @@
+m_chests_metal_vintage
+{
+	metal
+
+	diffusemap	models/darkmod/props/textures/m_chests_metal_vintage_d
+	bumpmap		models/darkmod/props/textures/m_chests_metal_vintage_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/
+        rgb         0.15 * parm11
+    }
+
+
+
+}
+
+m_chests_darkred
+{
+	wood
+
+	diffusemap	models/darkmod/props/textures/m_chests_darkred_d
+	bumpmap		models/darkmod/props/textures/m_chests_darkred_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/
+        rgb         0.15 * parm11
+    }
+
+
+
+}
+
+bananatest
+{
+	wood
+
+	diffusemap	models/bananatest_d
+	bumpmap		models/darkmod/props/textures/m_chests_darkred_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/
+        rgb         0.15 * parm11
+    }
+
+
+
+}
